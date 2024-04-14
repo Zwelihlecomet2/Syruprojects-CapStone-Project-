@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    margin-top: 7%;
+}
+
+.main-cover{
+    background-image: url(./assets/SyruProjects-bg-image.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.signing-in .email input{
+    height: 50px;
+    width: 40vw;
+    border: none;
+    opacity: 30%;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    padding-left: 3%;
+}
+
+.signing-in .password input{
+    height: 50px;
+    width: 40vw;
+    border: none;
+    opacity: 30%;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    padding-left: 3%;
+}
+
+.signing-in .sign-in-button button{
+    height: 50px;
+    width: 40vw;
+    border: none;
+    color: black;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    background-color: #cccc;
+    opacity: 70%;
+}
+
+.retrieval{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
