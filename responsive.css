@@ -1,0 +1,20 @@
+@media (max-width: 500px){
+    .signing-in .email input{
+        width: 90vw;
+    }
+
+    .signing-in .password input{
+        width: 90vw;
+    }
+
+    .signing-in .sign-in-button button{
+        width: 90vw;
+    }
+
+    .retrieval{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+}
