@@ -19,6 +19,18 @@
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 50%;
 }
 
 .signing-in .email input{
@@ -26,6 +38,8 @@
     width: 40vw;
     border: none;
     opacity: 60%;
+    background-color: black;
+    color: white;
     border-top-right-radius: 9999px;
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
@@ -40,6 +54,8 @@
     height: 50px;
     width: 40vw;
     border: none;
+    background-color: black;
+    color: white;
     opacity: 60%;
     border-top-right-radius: 9999px;
     border-bottom-left-radius: 9999px;
@@ -71,7 +87,7 @@
 
 .retrieval a{
     text-decoration: none;
-    color: white;
+    color: skyblue;
 }
 
 .retrieval a:hover{
@@ -106,7 +122,9 @@
 
 .alternative > p{
     background-color: black;
-    opacity: 80%;
+    width: 15vw;
+    margin-left: 40%;
+    opacity: 70%;
 }
 
 
