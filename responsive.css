@@ -18,16 +18,3 @@
         justify-content: space-between;
     }
 }
-
-@media (orientation: landscape){
-    .main-cover{
-        background-image: url(./assets/bg-image.jpg);
-        background-size: cover;
-        height: 150vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: relative;
-        z-index: 1;
-    }
-}
