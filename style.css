@@ -350,8 +350,13 @@
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
     border-top-left-radius: 9999px;
+    border: none;
 }
 
 .my-footer footer .first-button{
     margin-right: 1em;
+}
+
+.my-footer footer .done{
+    background-color: green;
 }
