@@ -338,5 +338,14 @@
     width: 35%;
     height: 3em;
     margin-top: 2em;
-    /* background-color: green; */
+    background-color: black;
+    color: white;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+}
+
+.my-footer footer .first-button{
+    margin-right: 1em;
 }
