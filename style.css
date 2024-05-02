@@ -278,6 +278,11 @@
     font-size: 3rem;
 }
 
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 /* The Styles for the customize page */
@@ -359,4 +364,105 @@
 
 .my-footer footer .done{
     background-color: green;
+}
+
+/* Styles for the Services Page */
+
+.services-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+.services-container header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.services-container nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.services-container nav .profile i{
+    font-size: 2.7rem;
+}
+
+
+.services-container span h1{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.services-container .content{
+    height: 78%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-container .content .first-content{
+    background-image: url(./assets/full-repair.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 100%;
+    margin-top: .5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.services-container .first-content .overlay{
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        opacity: 60%;
+}
+
+.services-container .first-content p{
+    margin-top: 1em;
+    opacity: 70%;
+}
+
+.services-container .content .second-content{
+    background-image: url(./assets/pothole-repair.jpg);
+    height: 40%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.services-container .second-content .overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 30%;
+}
+
+.services-container .content #p-repair{
+    margin-top: 1rem;
+}
+
+
+.services-container .second-content p{
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    opacity: 65%;
 }
