@@ -272,3 +272,71 @@
     font-size: 3rem;
 }
 
+
+
+/* The Styles for the customize page */
+
+.customize-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+}
+
+.customize-container header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+.customize-container header nav h1{
+    color: white;
+    padding: 15px;
+}
+
+.customize-container span h1{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.customize-container .first-selection form{
+    margin-top: 2em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    border-bottom: .2em solid black;
+}  
+
+
+
+.first-selection form .prize{
+    margin: 20px 0px;
+}
+
+.first-selection form .customize{
+    margin-bottom: 1em;
+}
+
+
+.customize-container .second-selection form{
+    margin-top: 2em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    border-bottom: .2em solid black;
+}
+
+.second-selection form div{
+    padding: .5em 0px;
+}
+
+
+.my-footer footer{
+    display: flex;
+    justify-content: center;
+}
+
+.my-footer footer button{
+    width: 35%;
+    height: 3em;
+    margin-top: 2em;
+    /* background-color: green; */
+}
