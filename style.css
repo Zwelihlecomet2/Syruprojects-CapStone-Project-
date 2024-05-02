@@ -228,6 +228,12 @@
     font-size: 3rem;
 }
 
+
+.second-blocks a{
+    text-decoration: none;
+    color: white;
+}
+
 .blocks .second-blocks .planning{
     height: 100px;
     width: 150px;
