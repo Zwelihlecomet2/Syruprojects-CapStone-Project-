@@ -466,3 +466,100 @@
     margin-top: 1em;
     opacity: 65%;
 }
+
+
+/* The About-us Page Styles */
+.about-container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.about-container header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.about-container header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.about-container nav .profile i{
+    font-size: 2.7rem;
+}
+
+.about-container span h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    height: 10%;
+
+}
+
+.about-container .about-us-content{
+    height: calc(100vh - 23.5%);
+    width: 100%;
+}
+
+.about-container .about-us-content .info-image{
+    height: calc(100% / 2);
+    width: 100%;
+    background-color: #d0d0d0;
+    display: flex;
+}
+
+.about-container .info-image .information{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.info-image .information p{
+    color: black;
+    font-size: small;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.about-container .info-image .about-image{
+    height: 100%;
+    width: 100%;
+}
+
+.info-image .about-image img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-container .about-us-content .last-information{
+    height: calc(100% / 2);
+    width: 100%;
+    background-color: white;
+}
+
+.last-information p{
+    font-size: small;
+    text-align: center;
+    padding-top: 3em;
+}
+
+/* .about-container .about-us-content .info-image .information {
+    height: calc(100% / 3);
+    width: 100%;
+    background-color: white;
+}
+.about-container .about-us-content .about-image{
+    height: calc(100% / 3);
+    width: 100%;
+    background-color: green;
+}
+.about-container .about-us-content .last-information{
+    height: calc(100% / 3);
+    width: 100%;
+} */
