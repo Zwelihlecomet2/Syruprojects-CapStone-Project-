@@ -305,12 +305,23 @@
     background-color: black;
 }
 
-.customize-container header nav h1{
-    color: white;
-    padding: 15px;
+.customize-container header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
 }
 
-.customize-container span h1{
+.customize-container nav .profile i{
+    font-size: 2.7rem;
+    color: white;
+}
+
+.customize-container header nav h1{
+    color: white;
+    /* padding: 15px; */
+}
+
+.customize-container  main span h1{
     text-align: center;
     margin-top: 1.5em;
 }
