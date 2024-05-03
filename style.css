@@ -564,6 +564,60 @@
     padding-top: 3em;
 }
 
+
+
+/* Styles for the registration file */
+.registration-container{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration-container .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container .form input{
+    height: 4.5em;
+    width: 20em;
+    margin: 15px;
+    border: none;
+    opacity: 80%;
+    padding-left: 15px;
+}
+
+.form input::placeholder{
+    color: black;
+    font-weight: 700;
+}
+
+.registration-container .gender label{
+    padding: 3px;
+}
+
+
+.registration-container #submit{
+    color: black;
+    height: 5%;
+    width: 40%;
+    margin-top: 3px;
+    border: none;
+    opacity: 85%;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+}
+
+
+
+
+
 /* .about-container .about-us-content .info-image .information {
     height: calc(100% / 3);
     width: 100%;
