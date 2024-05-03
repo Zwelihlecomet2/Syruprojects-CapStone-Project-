@@ -176,6 +176,11 @@
     font-size: 3rem;
 }
 
+.first-blocks a{
+    text-decoration: none;
+    color: white;
+}
+
 .blocks .first-blocks .our-work{
     height: 100px;
     width: 150px;
