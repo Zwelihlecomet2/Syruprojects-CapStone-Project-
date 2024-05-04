@@ -69,3 +69,17 @@
     }
 }
 
+
+/* media queries for the services page */
+@media (min-width: 500px){
+    .services-container{
+        height: 100vh;
+        width: 50vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25em;
+    }
+}
