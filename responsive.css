@@ -53,3 +53,19 @@
     }
 
 }
+
+
+/* media queries for the customization page */
+@media (min-width: 500px){
+    .customize-container{
+        height: 100vh;
+        width: 50vw;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 25em;
+    }
+}
+
