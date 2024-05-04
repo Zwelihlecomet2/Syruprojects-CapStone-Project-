@@ -99,3 +99,15 @@
         background-color: white;
     }
 }
+
+/* media queries for the registration page */
+@media (min-width: 500px){
+
+    .registration-container .form input{
+        width: 35em;
+    }
+
+    .registration-container #submit{
+        width: 35em;
+    }
+}

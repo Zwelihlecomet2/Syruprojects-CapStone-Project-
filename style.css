@@ -21,6 +21,7 @@
     z-index: 1;
 }
 
+
 .content{
     margin-top: 5px;
 }
@@ -618,17 +619,3 @@
 
 
 
-/* .about-container .about-us-content .info-image .information {
-    height: calc(100% / 3);
-    width: 100%;
-    background-color: white;
-}
-.about-container .about-us-content .about-image{
-    height: calc(100% / 3);
-    width: 100%;
-    background-color: green;
-}
-.about-container .about-us-content .last-information{
-    height: calc(100% / 3);
-    width: 100%;
-} */
