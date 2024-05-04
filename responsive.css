@@ -83,3 +83,19 @@
         margin-left: 25em;
     }
 }
+
+
+/* media queries for the about-us page */
+@media (min-width: 500px){
+    .about-container{
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.5em;
+        margin-left: 25em;
+        background-color: white;
+    }
+}
